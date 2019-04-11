@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ViewModels.SceneConnection">
+   <children>
+      <Text layoutX="80.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password :" />
+      <Text layoutX="81.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pseudo :" />
+      <TextField fx:id="TxtField1" layoutX="16.0" layoutY="70.0" prefHeight="71.0" prefWidth="434.0" />
+      <Button layoutX="19.0" layoutY="316.0" mnemonicParsing="false" onMousePressed="#connect" prefHeight="76.0" prefWidth="232.0" text="Connection" />
+      <Button layoutX="344.0" layoutY="313.0" mnemonicParsing="false" onMousePressed="#inscription" prefHeight="76.0" prefWidth="232.0" text="Inscription" />
+      <Text fx:id="Txt" layoutX="13.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="451.26971435546875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="TxtField2" layoutX="12.0" layoutY="201.0" />
+   </children>
+</Pane>

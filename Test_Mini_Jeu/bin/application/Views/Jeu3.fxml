@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="328.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ViewModels.SceneJeu3Model">
+   <center>
+      <Pane focusTraversable="true" onMousePressed="#Tir" prefHeight="400.0" prefWidth="328.0" BorderPane.alignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="600.0" focusTraversable="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Fond_canard.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CROSSHAIR" />
+               </cursor>
+               <viewport>
+                  <Rectangle2D width="10.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fx:id="I1" fitHeight="25.0" fitWidth="25.0" layoutX="19.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Cible.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CROSSHAIR" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="I2" fitHeight="25.0" fitWidth="25.0" layoutX="29.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Cible.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CROSSHAIR" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="I3" fitHeight="25.0" fitWidth="25.0" layoutX="39.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Cible.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CROSSHAIR" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="I4" fitHeight="25.0" fitWidth="25.0" layoutX="49.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Cible.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CROSSHAIR" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="I5" fitHeight="25.0" fitWidth="25.0" layoutX="59.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Cible.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CROSSHAIR" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="I6" fitHeight="25.0" fitWidth="25.0" layoutX="69.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Cible.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CROSSHAIR" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="I7" fitHeight="25.0" fitWidth="25.0" layoutX="79.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Cible.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CROSSHAIR" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="I8" fitHeight="25.0" fitWidth="25.0" layoutX="89.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Cible.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CROSSHAIR" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="I9" fitHeight="25.0" fitWidth="25.0" layoutX="99.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Cible.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CROSSHAIR" />
+               </cursor>
+            </ImageView>
+            <ImageView fx:id="I10" fitHeight="25.0" fitWidth="25.0" layoutX="109.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Cible.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="CROSSHAIR" />
+               </cursor>
+            </ImageView>
+            <Text fx:id="Txt" layoutX="82.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="179.87591552734375" />
+         </children>
+      </Pane>
+   </center>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</BorderPane>
